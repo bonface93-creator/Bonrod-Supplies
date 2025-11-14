@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Electronics Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Electronics</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Search products..." />
+            <select id="categoryFilter">
+                <option value="All">All Categories</option>
+                <option value="Laptop">Laptops</option>
+                <option value="Smartphone">Smartphones</option>
+                <option value="Headphones">Headphones</option>
+                <option value="Smartwatch">Smartwatches</option>
+            </select>
+        </div>
+        <section class="products" id="productList">
+            <!-- Product cards dynamically rendered -->
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Electronics Store. All rights reserved.
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
